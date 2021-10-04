@@ -33,7 +33,7 @@ header nav ul li a {
 }
 header nav ul li a:hover,
 .selected {
-    background-color: #FD6773;
+    background-color: #B92326;
     color: #fff;
     border-radius: 20px;
 }
@@ -89,8 +89,8 @@ header nav ul li a:hover,
     padding: 30px;
 }
 .banner-buttons .c1 {
-    text-align: justify;
-    background-color: #FD6773;
+    text-align: center;
+    background-color: #B92326;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -100,7 +100,7 @@ header nav ul li a:hover,
     align-items: center;
     text-align: center;
     font-size: 20px;
-    background-color: #ff5c66;
+    background-color: #b81114;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -113,7 +113,7 @@ header nav ul li a:hover,
 .line {
     width: 70px;
     height: 2px;
-    background-color: #ff5c66;
+    background-color: #b81114;
 }
 .cards-section {
     width: 820px;
@@ -139,5 +139,6 @@ header nav ul li a:hover,
 .card-info .card--interest,
 .card-info .card--function,
 .card-info .card--contact {
-    color: #ff5c66;
+    color: #b81114;
+    font-weight: bold;
 }
