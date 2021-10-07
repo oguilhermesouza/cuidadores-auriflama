@@ -41,9 +41,6 @@ header nav ul li a:hover,
     display: flex;
     align-items: center;
 }
-.logo-header img {
-    width: 81px;
-}
 .banner {
     background-image: url('../img/home-care.jpg');
     background-position: center;
@@ -121,13 +118,14 @@ header nav ul li a:hover,
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-top: 40px;
+    gap: 12px;
 }
 .card-info {
     border-radius: 6px;
-    box-shadow: 1px 1px 8px #00000025;
+    box-shadow: 1px 1px 8px #00000045;
     padding: 10px;
-    width: 240px;
-    margin: 6px;
+    width: 245px;
+    margin-bottom: 12px;
 }
 .card-info:hover {
     transform: scale(1.02);
@@ -141,4 +139,18 @@ header nav ul li a:hover,
 .card-info .card--contact {
     color: #b81114;
     font-weight: bold;
+}
+.card-info .card--photo {
+    margin: -10px;
+    padding-bottom: 10px;
+}
+.card-info .card--photo img {
+    width: 100%;
+    border-radius: 6px 6px 100px 0;
+}
+.register-homecare {
+    background-color: #b81114;
+    color: #fff;
+    padding: 40px 0px;
+    text-align: center;
 }
