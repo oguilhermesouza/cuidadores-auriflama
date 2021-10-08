@@ -148,9 +148,56 @@ header nav ul li a:hover,
     width: 100%;
     border-radius: 6px 6px 100px 0;
 }
-.register-homecare {
+.register {
     background-color: #b81114;
     color: #fff;
-    padding: 40px 0px;
+    padding-bottom: 30px;
     text-align: center;
+}
+.register p {
+    padding: 15px 0px;
+}
+.register-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.register button {
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    color: #b81114;
+}
+.register button:hover {
+    transform: scale(1.04);
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.about-block-1 {
+    display: flex;
+    padding-top: 40px;
+    font-size: 19px;
+    text-align: justify;
+    gap: 10px;
+}
+.about-block-2 {
+    display: flex;
+    padding-top: 40px;
+    font-size: 18px;
+    text-align: justify;
+    gap: 10px;
+}
+.about-block-1 img {
+    width: 400px;
+}
+.about-block-2 img {
+    width: 400px;
+}
+.about p {
+    text-indent: 50px;
+    flex: 1;
 }
