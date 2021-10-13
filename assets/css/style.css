@@ -213,3 +213,44 @@ footer {
     }
 
 }
+
+@media (max-width: 820px) {
+    .cards-section {
+        width: auto;
+        justify-content: center;
+        gap: 30px;
+    }
+    .banner-container{
+        width:auto;
+    }
+    nav ul li {
+        display: none;
+    }
+    .about-block-1 img,
+    .about-block-2 img {
+        display: none;
+    } 
+    .about-block-1,
+    .about-block-2 {
+        padding: 10px 10px 0px 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .banner-buttons {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .banner-buttons .button {
+        width: auto;
+    }
+    .banner-buttons .c1,
+    .banner-buttons .c2 {
+        border-radius: 0px;
+    }
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+}
