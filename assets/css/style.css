@@ -73,7 +73,6 @@ header nav ul li a:hover,
     height: 500px;
     background-color: #B9232620;
     z-index: 1;
-    /*top:176px;*/
 }
 .banner-buttons {
     display: flex;
@@ -90,8 +89,8 @@ header nav ul li a:hover,
 .banner-buttons .c1 {
     text-align: center;
     background-color: #B92326;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .banner-buttons .c2 {
     display: flex;
@@ -100,8 +99,8 @@ header nav ul li a:hover,
     text-align: center;
     font-size: 20px;
     background-color: #b81114;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .cards {
     display: flex;
@@ -218,7 +217,7 @@ footer {
     .cards-section {
         width: auto;
         justify-content: center;
-        gap: 30px;
+        gap: 15px;
     }
     .banner-container{
         width:auto;
@@ -239,18 +238,63 @@ footer {
 @media (max-width: 600px) {
     .banner-buttons {
         flex-direction: column;
-        margin-top: 0px;
+        margin-top: 10px;
+        color: #fff;
+        gap: 10px
     }
     .banner-buttons .button {
         width: auto;
+        padding: 15px;
+        margin: 0px 10px 0px 10px;
     }
     .banner-buttons .c1,
     .banner-buttons .c2 {
-        border-radius: 0px;
+        border-radius: 6px;
+        background-color: #b81114;
+        
     }
     footer {
         flex-direction: column;
         justify-content: center;
         padding: 10px;
+    }
+    .opacity-background,
+    .banner {
+        height: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner-title {
+        font-size: 32px;
+        text-align: center;
+        text-shadow: 1px 1px 10px #00000030;
+    }
+    .banner-subTitle {
+        text-align: center;
+    }
+    header h1 {
+        font-size: 22px;
+    }
+    .banner,
+    .opacity-background {
+        height: 310px;
+    }
+    .logo-header img{
+        width: 70px;
+        height: 70px;
+    }
+    header {
+        height: auto;
+    }
+    .cards h1,
+    .about h1,
+    .banner-container h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .register {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
